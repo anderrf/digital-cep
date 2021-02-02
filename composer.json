@@ -1,0 +1,23 @@
+{
+    "name": "anderrf/digital-cep",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anderson Farias",
+            "email": "anderson_rocha_farias@outlook.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-0":{
+            "Search": "src/"
+        },
+        "psr-4":{
+            "anderrf\\DigitalCep\\": "src/"
+        }
+    }
+}
